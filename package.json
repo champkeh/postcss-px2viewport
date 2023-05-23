@@ -1,0 +1,45 @@
+{
+  "name": "@cktech/postcss-px2viewport",
+  "version": "1.0.0",
+  "description": "A CSS post-processor that converts px to viewport units (vw, vh, vmin, vmax).",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "jest test/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/champkeh/postcss-px2viewport.git"
+  },
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "css",
+    "units",
+    "pixel",
+    "px",
+    "viewport",
+    "vw",
+    "vh",
+    "vmin",
+    "vmax",
+    "postcss",
+    "postcss-plugin"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/champkeh/postcss-px2viewport/issues"
+  },
+  "homepage": "https://github.com/champkeh/postcss-px2viewport#readme",
+  "dependencies": {
+    "object-assign": "^4.1.1"
+  },
+  "devDependencies": {
+    "jest": "^25.4.0",
+    "postcss": "^8.4.23"
+  },
+  "peerDependencies": {
+    "postcss": "^8.4.23"
+  }
+}
